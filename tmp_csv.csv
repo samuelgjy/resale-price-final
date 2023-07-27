@@ -1,0 +1,2 @@
+flat_type,storey_range,floor_area_sqm,lease_commence_date,school_dist,num_school_2km,hawker_dist,num_hawker_2km,park_dist,num_park_2km,mall_dist,num_mall_2km,mrt_dist,num_mrt_2km,supermarket_dist,num_supermarket_2km,dist_dhoby,region_East,region_North,region_North East,region_West,model_Apartment,model_Maisonette,model_Model A,model_New Generation,model_Special
+2,3,93,2015,0.2661539196850931,10,0.896474740560929,2,0.25102827667444266,8,0.7272597833008181,4,0.6601448963603137,1,0.14206310335195463,15,15.086846198557478,0,0,1,0,0,0,1,0,0
