@@ -1,3 +1,4 @@
 gdown==4.7.1
 joblib==1.2.0
 scikit-learn==1.0.2
+python==3.10.9
