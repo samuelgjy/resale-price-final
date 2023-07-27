@@ -7,6 +7,7 @@ from pathlib import Path
 import pydeck as pdk
 import os
 import gdown
+import geopy
 import joblib
 import datetime
 import requests
