@@ -8,6 +8,7 @@ import pydeck as pdk
 import os
 import gdown
 import geopy
+from geopy.distance import geodesic
 import joblib
 import datetime
 import requests
