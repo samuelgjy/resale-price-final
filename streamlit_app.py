@@ -1,3 +1,5 @@
+pip install geopy
+
 import streamlit as st # v0.69
 import numpy as np
 import pandas as pd
