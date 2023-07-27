@@ -90,8 +90,10 @@ with st.form('User Input HDB Features'):
     submitted1 = st.form_submit_button(label='Submit HDB 🔎')
 
 
-model_link = 'https://drive.google.com/uc?id=1wfZUYf0N_LlHtr2kTbTvHaHb0fFwzyhO&export=download'
-explainer_link = 'https://drive.google.com/uc?id=16ZKWI7rH7X8Zq64Ft0OKYsKW_kFewUCa&export=download'
+#model_link = 'https://drive.google.com/uc?id=1wfZUYf0N_LlHtr2kTbTvHaHb0fFwzyhO&export=download'
+#explainer_link = 'https://drive.google.com/uc?id=16ZKWI7rH7X8Zq64Ft0OKYsKW_kFewUCa&export=download'
+model_link = 'https://drive.google.com/u/0/uc?id=17WuPxfOx2Y0GZTf1tff-3aL_UzF89q8k&export=download' # hosted on GD
+explainer_link = 'https://drive.google.com/u/0/uc?id=1SRY7LNPGQRlm7lJcqjdttijemadwyIkk&export=download' # hosted on GD
 
 @st.cache_resource() 
 def load_model(model_link, explainer_link):
