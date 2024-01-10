@@ -23,19 +23,20 @@ Graphical User Interface: The GUI link to our HDB resale price system is already
 https://resale-price-final-wujhysfbyrvtsjzlbohyfh.streamlit.app/
 
 ## Justification of used measures / methods:
-
+![image](https://github.com/samuelgjy/resale-price-final/assets/110824653/8540d0a7-21c3-4f3c-9e62-804054c3f72c)
 
 Before Outlier Removal:
 
-![image](https://github.com/samuelgjy/resale_price/assets/110824653/5032d2fb-17d4-4797-9530-a3ff6b18a7e3)
+![image](https://github.com/samuelgjy/resale-price-final/assets/110824653/99587854-d8ee-41cc-84fa-7d05a43b4e5f)
+
 
 After Outlier Removal:
 
-![image](https://github.com/samuelgjy/resale_price/assets/110824653/a8c83528-4f82-4e68-8a6d-415fc44abb4a)
+![image](https://github.com/samuelgjy/resale-price-final/assets/110824653/28a8f360-fb54-4e8d-99eb-605dee18c4b0)
 
 ## Random Forest:
 
-![image](https://github.com/samuelgjy/resale_price/assets/110824653/9f1b0256-635f-4195-9276-faa912b853f9)
+![image](https://github.com/samuelgjy/resale-price-final/assets/110824653/092738bb-5188-4d6b-b9fe-ca6dee99ccc0)
 
 Random Forest (Out-Of-Bag) -R²: 0.966: 
 Test data R² score: 0.966 (Approximately 96.6% of price variance explained)
@@ -55,5 +56,5 @@ Test data Mean Absolute Error: 20,339 (The average prediction error for this mod
 The analysis of feature importance in both Linear Regression and Random Forest models reveals that floor area and lease commence date significantly influence resale prices. Additionally, distance from MRT and flat type also demonstrate notable impacts on housing prices. The difference in feature importance arises because tree-based models like Random Forest measure importance based on the frequency of feature selection for splitting and the gain in purity achieved. Consequently, tree-based models tend to assign lower importance scores to categorical values. Notably, despite this variation in importance scoring, the Random Forest model outperforms Linear Regression in predictive accuracy for the given task.
 
 
-![image](https://github.com/samuelgjy/resale_price/assets/110824653/caed3c20-ae58-4911-8f13-8c7aac177b29)
+![image](https://github.com/samuelgjy/resale-price-final/assets/110824653/893a178e-2210-47c0-abe7-057b1d5ac895)
 
